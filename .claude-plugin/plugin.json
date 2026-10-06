@@ -1,0 +1,6 @@
+{
+  "name": "diffspider",
+  "version": "0.1.0",
+  "description": "A braille spider crawls over every Edit and Write diff in Claude Code and marks the changed words neon",
+  "author": { "name": "Silvertree2010" }
+}

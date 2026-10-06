@@ -1,0 +1,13 @@
+{
+  "name": "diffspider",
+  "description": "diffspider for Claude Code: a braille spider crawls over every diff",
+  "owner": {
+    "name": "Silvertree2010"
+  },
+  "plugins": [
+    {
+      "name": "diffspider",
+      "source": "./"
+    }
+  ]
+}
