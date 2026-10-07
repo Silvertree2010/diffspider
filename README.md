@@ -61,6 +61,14 @@ Answer `y` to add the marketplace and press Enter to install it for your user. I
 
 Each leg has a resting spot next to the body. A foot stays planted until it drifts too far from that spot, then it steps ahead. The legs move in two alternating groups, so four feet are always on the ground.
 
+## What runs
+
+diffspider ships one function hook module, `hooks/register.tsx`, declared in `hooks/hooks.json`. Claude Code loads it in-process. It only draws: it reads the diff of the current `Edit` or `Write` row and renders the spider over it. It has no MCP servers, commands, skills or agents, and it does not run shell commands. It works in the Claude Code terminal only, not on claude.ai or in Cowork.
+
+## Privacy
+
+diffspider collects no data. It makes no network requests, writes nothing to disk, keeps no state between sessions and has no telemetry. The only thing it reads is the diff Claude Code is already showing you, and that never leaves your machine.
+
 ## Develop
 
 ```
